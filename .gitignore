@@ -3,6 +3,12 @@ docs/site/
 # OSX Junk
 .DS_Store
 
+# Don't store data on git
+data/
+*.RData
+*.Rdata
+*.csv
+
 # test cache
 .cache/*
 tests/__pycache__/*
