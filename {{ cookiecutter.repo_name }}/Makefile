@@ -19,7 +19,7 @@ endif
 
 ## Install required R libraries
 requirements: 
-	Rscript PROJECT_DIR/setup.R
+	Rscript setup.R
 
 ## Make and and define the cohort
 cohort: requirements
