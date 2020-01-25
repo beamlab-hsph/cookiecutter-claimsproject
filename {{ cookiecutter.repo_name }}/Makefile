@@ -17,7 +17,7 @@ endif
 # COMMANDS                                                                      #
 #################################################################################
 
-## Install Python Dependencies
+## Install required R libraries
 requirements: test_environment
 
 ## Make Dataset
