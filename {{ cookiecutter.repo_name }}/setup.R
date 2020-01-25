@@ -15,6 +15,6 @@ if(!require(SqlTools)) {
   print('Attemping to install package: SqlTools')
 }
 
-if(Sys.getenv("AETNA_USERNAME") == "") {
+if(Sys.getenv("DATABASE_USERNAME") == "") {
   print('Adding username to R profile in ~/.Rprofile')
 }
