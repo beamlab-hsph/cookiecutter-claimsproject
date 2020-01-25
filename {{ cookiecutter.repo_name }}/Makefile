@@ -1,4 +1,4 @@
-.PHONY: clean data requirements 
+.PHONY: requirements cohort analysis tables figures clean
 
 #################################################################################
 # GLOBALS                                                                       #
@@ -20,9 +20,18 @@ endif
 ## Install required R libraries
 requirements: test_environment
 
-## Make Dataset
-data: requirements
+## Make and and define the cohort
+cohort: requirements
 	
+## Perform the analysis
+analysis: cohort
+
+## Make the tables
+tables: analysis
+
+## Make the figures
+figures: analysis
+
 ## Delete all compiled Python files
 clean:
 	find . -type f -name "*.py[co]" -delete
