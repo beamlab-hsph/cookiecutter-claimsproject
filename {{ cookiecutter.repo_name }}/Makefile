@@ -19,6 +19,7 @@ endif
 
 ## Install required R libraries
 requirements: test_environment
+	Rscript PROJECT_DIR/setup.R
 
 ## Make and and define the cohort
 cohort: requirements
