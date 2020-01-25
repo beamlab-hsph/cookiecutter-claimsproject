@@ -1,2 +1,2 @@
-# local package
--e .
+# List of required R packages 
+tidyverse
