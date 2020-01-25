@@ -1,9 +1,9 @@
-# Cookiecutter Data Science
+# Cookiecutter Claims Project
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+_A logical, reasonably standardized, but flexible project structure for analyzing claims data._ 
 
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+This is a fork of the [cookie cutter](http://drivendata.github.io/cookiecutter-data-science/) datascience repo.
 
 
 ### Requirements to use the cookiecutter template:
@@ -26,8 +26,8 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/drivendata/cookiecutter-data-science
-
+    cookiecutter https://github.com/beamlab-hsph/cookiecutter-claimsproject
+   
 
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
 
@@ -42,7 +42,7 @@ The directory structure of your new project looks like this:
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
-│   ├── external       <- Data from third party sources.
+│   ├-─ external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
