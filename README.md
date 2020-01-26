@@ -27,10 +27,7 @@ $ conda install cookiecutter
 ------------
 
     cookiecutter https://github.com/beamlab-hsph/cookiecutter-claimsproject
-   
-
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
-
+ 
 
 ### The resulting directory structure
 ------------
