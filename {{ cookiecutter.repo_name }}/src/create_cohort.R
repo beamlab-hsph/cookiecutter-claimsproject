@@ -1,3 +1,4 @@
+options(tidyverse.quiet = TRUE)
 library(tidyverse)
 library("SqlServerJtds")
 library("SqlTools")
